@@ -39,21 +39,21 @@ I used a dataset with real data science job postings from 2023. It includes deta
 - Next, I cleaned both lists. I changed the column data types, deleted columns I did not need, cleaned up text to remove words that were not useful, and removed empty spaces around the words.
     - 📊 data_jobs_all
 
-        ![Cleaned Job Data](images/2_Project_Analysis_Screenshot1.png)
+        ![Cleaned Job Data](Images/2_Project_Analysis_Screenshot1.png)
 
     - 🛠️ data_job_skills
 
-        ![Cleaned Job Skills](images/2_Project_Analysis_Screenshot2.png)
+        ![Cleaned Job Skills](Images/2_Project_Analysis_Screenshot2.png)
 
 #### 🔗 Load
 - Finally, I loaded both clean lists back into my Excel workbook so they were ready for analysis.
     - 📊 data_jobs_all
 
-        ![Loaded Job Data](images/2_Project_Analysis_Screenshot3.png)
+        ![Loaded Job Data](Images/2_Project_Analysis_Screenshot3.png)
 
     - 🛠️ data_job_skills
 
-        ![Loaded Job Skills](images/2_Project_Analysis_Screenshot4.png)
+        ![Loaded Job Skills](Images/2_Project_Analysis_Screenshot4.png)
 
 ### 📊 Analysis
 
@@ -61,7 +61,7 @@ I used a dataset with real data science job postings from 2023. It includes deta
 - 📈 There is a positive connection between the number of skills in a job posting and the salary. This is especially true for roles like Senior Data Engineer and Data Scientist.
 - 💼 Jobs that require fewer skills, like Business Analyst, usually pay less. This shows that knowing specialized skills brings higher value in the market.
 
-    ![Skills vs Salary Chart](images/2_Project_Analysis_Chart1.png)
+    ![Skills vs Salary Chart](Images/2_Project_Analysis_Chart1.png)
 
 #### 🤔 So What
 - This means it is highly valuable to learn multiple matching skills, especially if your goal is to move into higher-paying roles.
@@ -93,7 +93,7 @@ I used a dataset with real data science job postings from 2023. It includes deta
 - 💼 High-level roles like Senior Data Engineer and Data Scientist get the highest median salaries both inside the United States and internationally. This shows a strong global demand for advanced data skills.
 - 💰 There is a clear pay gap between roles in the US and roles outside the US. Salaries are noticeably higher in the US, which is likely because so many major tech companies are concentrated there.
 
-    ![Salary by Region Chart](images/2_Project_Analysis_Chart2.png)
+    ![Salary by Region Chart](Images/2_Project_Analysis_Chart2.png)
 
 #### 🤔 So What
 - These salary details are very important when planning your career or negotiating pay. They help both workers and companies set fair expectations based on where the job is located.
@@ -109,12 +109,12 @@ I used a dataset with real data science job postings from 2023. It includes deta
 #### 🔗 Data Model
 - I created a relationship between my two tables using the `job_id` column to connect them.
 
-    ![Power Pivot Data Model](images/2_Project_Analysis_Screenshot5.png)
+    ![Power Pivot Data Model](Images/2_Project_Analysis_Screenshot5.png)
 
 #### 📃 Power Pivot Menu
 - I used the Power Pivot menu to organize my data model and easily create my calculated measures.
 
-    ![Power Pivot Menu](images/2_Project_Analysis_Screenshot6.png)
+    ![Power Pivot Menu](Images/2_Project_Analysis_Screenshot6.png)
 
 ### 📊 Analysis
 
@@ -122,7 +122,7 @@ I used a dataset with real data science job postings from 2023. It includes deta
 - 💻 SQL and Python are the most popular skills in data jobs. This shows they are the absolute foundation for working with data.
 - ☁️ Cloud technologies like AWS and Azure also appear frequently, which proves that the industry is heavily moving toward cloud services and big data tools.
 
-    ![Top Skills Chart](images/2_Project_Analysis_Chart3.png)
+    ![Top Skills Chart](Images/2_Project_Analysis_Chart3.png)
 
 #### 🤔 So What
 - Knowing which skills are the most popular helps professionals stay competitive. It also shows beginners exactly which technologies they should study first to match what companies want.
@@ -143,7 +143,7 @@ I used a dataset with real data science job postings from 2023. It includes deta
 - 💰 Higher salaries are tied directly to skills like Python, Oracle, and SQL. This proves that these technologies are critical for landing high-paying tech roles.
 - 📉 Basic tools like PowerPoint and Word have the lowest median salaries and are rarely requested, showing they do not add specialized value in high-salary sectors.
 
-    ![Salary vs Likelihood for Top 10 Skills](images/2_Project_Analysis_Chart4.png)
+    ![Salary vs Likelihood for Top 10 Skills](Images/2_Project_Analysis_Chart4.png)
 
 ### 🤔 So What
 - This chart clearly shows that if you want to maximize your salary in the data industry, you should invest your time in learning high-value technical skills like Python and SQL rather than basic office software.
